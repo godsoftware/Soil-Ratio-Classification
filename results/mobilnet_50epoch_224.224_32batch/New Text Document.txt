@@ -1,0 +1,17 @@
+En iyi model şu dizine kaydedildi: C:/capstoneproject/models\best_model_epoch50_batch32_mobilnet.keras
+2/2 [==============================] - 6s 2s/step - loss: 0.5442 - accuracy: 0.7708
+Best Model Test Loss: 0.5442420840263367, Test Accuracy: 0.7708333134651184
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        0-25       0.80      1.00      0.89        12
+       26-50       1.00      0.75      0.86        12
+       51-75       1.00      0.33      0.50        12
+      76-100       0.60      1.00      0.75        12
+
+    accuracy                           0.77        48
+   macro avg       0.85      0.77      0.75        48
+weighted avg       0.85      0.77      0.75        48
+
+Toplam 48 görsel tahmin edildi.

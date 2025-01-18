@@ -1,0 +1,18 @@
+6/6 [==============================] - 28s 5s/step - loss: 1.3053 - accuracy: 0.4024 - val_loss: 1.2644 - val_accuracy: 0.6875
+En iyi model şu dizine kaydedildi: C:/capstoneproject/models\best_model_epoch50_batch32_cnn.keras
+2/2 [==============================] - 9s 4s/step - loss: 1.2553 - accuracy: 0.7292
+Best Model Test Loss: 1.2553328275680542, Test Accuracy: 0.7291666865348816
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        0-25       1.00      0.75      0.86        12
+       26-50       0.69      0.75      0.72        12
+       51-75       0.62      0.42      0.50        12
+      76-100       0.67      1.00      0.80        12
+
+    accuracy                           0.73        48
+   macro avg       0.75      0.73      0.72        48
+weighted avg       0.75      0.73      0.72        48
+
+Toplam 48 görsel tahmin edildi.

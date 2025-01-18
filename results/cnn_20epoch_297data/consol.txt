@@ -1,0 +1,83 @@
+Python 3.8.19 (default, Mar 20 2024, 19:55:45) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.12.2 -- An enhanced Interactive Python.
+
+runfile('C:/capstoneproject/scripts/train_cnn.py', wdir='C:/capstoneproject/scripts')
+Found 201 images belonging to 4 classes.
+Found 48 images belonging to 4 classes.
+Found 48 images belonging to 4 classes.
+Epoch 1/20
+6/6 [==============================] - 89s 15s/step - loss: 31.3428 - accuracy: 0.2367 - val_loss: 8.3635 - val_accuracy: 0.2188
+Epoch 2/20
+6/6 [==============================] - 75s 12s/step - loss: 3.9104 - accuracy: 0.2367 - val_loss: 1.3574 - val_accuracy: 0.1875
+Epoch 3/20
+6/6 [==============================] - 77s 13s/step - loss: 1.3153 - accuracy: 0.2899 - val_loss: 1.1845 - val_accuracy: 0.2812
+Epoch 4/20
+6/6 [==============================] - 74s 12s/step - loss: 1.1575 - accuracy: 0.2663 - val_loss: 1.1208 - val_accuracy: 0.3125
+Epoch 5/20
+6/6 [==============================] - 77s 13s/step - loss: 1.1186 - accuracy: 0.4083 - val_loss: 1.1810 - val_accuracy: 0.2500
+Epoch 6/20
+6/6 [==============================] - 74s 12s/step - loss: 1.0392 - accuracy: 0.4201 - val_loss: 1.0683 - val_accuracy: 0.4062
+Epoch 7/20
+6/6 [==============================] - 71s 11s/step - loss: 0.9349 - accuracy: 0.5148 - val_loss: 1.0994 - val_accuracy: 0.3438
+Epoch 8/20
+6/6 [==============================] - 65s 11s/step - loss: 0.8743 - accuracy: 0.6331 - val_loss: 1.0432 - val_accuracy: 0.4375
+Epoch 9/20
+6/6 [==============================] - 72s 12s/step - loss: 0.7323 - accuracy: 0.6615 - val_loss: 1.1616 - val_accuracy: 0.4062
+Epoch 10/20
+6/6 [==============================] - 77s 13s/step - loss: 0.6430 - accuracy: 0.7604 - val_loss: 0.8896 - val_accuracy: 0.5625
+Epoch 11/20
+6/6 [==============================] - 74s 12s/step - loss: 0.6105 - accuracy: 0.7929 - val_loss: 0.8503 - val_accuracy: 0.6250
+Epoch 12/20
+6/6 [==============================] - 68s 11s/step - loss: 0.4784 - accuracy: 0.8935 - val_loss: 1.2857 - val_accuracy: 0.5625
+Epoch 13/20
+6/6 [==============================] - 67s 11s/step - loss: 0.3901 - accuracy: 0.8935 - val_loss: 0.9828 - val_accuracy: 0.5938
+Epoch 14/20
+6/6 [==============================] - 67s 11s/step - loss: 0.3302 - accuracy: 0.9231 - val_loss: 1.1755 - val_accuracy: 0.6562
+Epoch 15/20
+6/6 [==============================] - 69s 11s/step - loss: 0.2730 - accuracy: 0.9290 - val_loss: 1.3130 - val_accuracy: 0.5625
+Epoch 16/20
+6/6 [==============================] - 68s 11s/step - loss: 0.2385 - accuracy: 0.9586 - val_loss: 0.7431 - val_accuracy: 0.7500
+Epoch 17/20
+6/6 [==============================] - 68s 11s/step - loss: 0.2690 - accuracy: 0.9467 - val_loss: 0.7952 - val_accuracy: 0.7812
+Epoch 18/20
+6/6 [==============================] - 69s 13s/step - loss: 0.2105 - accuracy: 0.9586 - val_loss: 0.7145 - val_accuracy: 0.6875
+Epoch 19/20
+6/6 [==============================] - 68s 11s/step - loss: 0.2534 - accuracy: 0.9408 - val_loss: 0.9465 - val_accuracy: 0.7188
+Epoch 20/20
+6/6 [==============================] - 68s 11s/step - loss: 0.1686 - accuracy: 0.9704 - val_loss: 1.0795 - val_accuracy: 0.7500
+2/2 [==============================] - 12s 4s/step - loss: 0.7903 - accuracy: 0.7500
+Test Loss: 0.7903293967247009, Test Accuracy: 0.75
+C:\Users\ozkal.DESKTOP-8UHA164\anaconda3\envs\yolov8\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+
+ 
+Important
+Figures are displayed in the Plots pane by default. To make them also appear inline in the console, you need to uncheck "Mute inline plotting" under the options menu of Plots.
+2/2 [==============================] - 12s 4s/step
+Confusion Matrix:
+[[12  0  0  0]
+ [ 4  6  2  0]
+ [ 1  4  6  1]
+ [ 0  0  0 12]]
+Classification Report:
+              precision    recall  f1-score   support
+
+        0-25       0.71      1.00      0.83        12
+       26-50       0.60      0.50      0.55        12
+       51-75       0.75      0.50      0.60        12
+      76-100       0.92      1.00      0.96        12
+
+    accuracy                           0.75        48
+   macro avg       0.74      0.75      0.73        48
+weighted avg       0.74      0.75      0.73        48
+
+
+2024-12-04 02:59:28.886233: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-12-04 02:59:47.623592: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 1065369600 exceeds 10% of free system memory.
+2024-12-04 02:59:50.855589: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 1065369600 exceeds 10% of free system memory.
+2024-12-04 02:59:59.589600: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 1065369600 exceeds 10% of free system memory.
+2024-12-04 03:00:02.467388: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 1065369600 exceeds 10% of free system memory.
+2024-12-04 03:00:11.347034: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 1065369600 exceeds 10% of free system memory.

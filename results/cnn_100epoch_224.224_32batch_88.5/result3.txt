@@ -1,0 +1,4 @@
+Epoch 100/100
+6/6 [==============================] - 26s 5s/step - loss: 0.0340 - accuracy: 0.9882 - val_loss: 1.1099 - val_accuracy: 0.6250
+2/2 [==============================] - 6s 2s/step - loss: 0.5618 - accuracy: 0.8750
+Test Loss: 0.5618351101875305, Test Accuracy: 0.875

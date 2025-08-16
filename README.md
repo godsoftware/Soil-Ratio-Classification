@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -13,8 +12,7 @@
 - [Models](#models)
 - [Results](#results)
 - [Data Augmentation](#data-augmentation)
-- [Contributing](#contributing)
-- [License](#license)
+- [Training Configuration](#training-configuration)
 
 ## 🌱 Overview
 
@@ -174,46 +172,3 @@ The project includes comprehensive data augmentation techniques:
 - **Training**: 70-80%
 - **Validation**: 15-20%
 - **Testing**: 10-15%
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-- Follow PEP 8 style guidelines
-- Add comments to complex code sections
-- Update documentation for new features
-- Test your changes thoroughly
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- TensorFlow team for the deep learning framework
-- Contributors to the pre-trained models
-- Research community for soil classification methodologies
-
-## 📞 Contact
-
-- **Project Link**: [https://github.com/yourusername/Soil-Ratio-Classification](https://github.com/yourusername/Soil-Ratio-Classification)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Soil-Ratio-Classification/issues)
-
-## 🔮 Future Work
-
-- [ ] Real-time soil analysis
-- [ ] Mobile application development
-- [ ] Additional soil properties classification
-- [ ] Integration with IoT sensors
-- [ ] Cloud-based processing pipeline
-
----
-
-**Note**: This project is actively maintained. For the latest updates, please check the repository regularly.
